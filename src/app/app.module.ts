@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -43,7 +44,12 @@ import { RouterModule } from '@angular/router';
     ActusComponent,
     DistancielComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, RouterModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    RouterModule,
+    CarouselModule.forRoot(),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -1,0 +1,12 @@
+.header {
+  flex: 0;
+  position: fixed;
+  margin: 0;
+  z-index: 2;
+}
+.main {
+  flex: 1;
+}
+.footer {
+  flex: 0;
+}

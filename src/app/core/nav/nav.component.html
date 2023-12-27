@@ -1,0 +1,26 @@
+<div class="menu">
+  <div
+    *ngFor="let item of menuItems"
+    class="menu-item"
+    [routerLinkActive]="['active-link']"
+    [routerLinkActiveOptions]="{ exact: true }"
+  >
+    <a [routerLink]="item.link">{{ item.label }}</a>
+    <div *ngIf="item.label === 'BPJEPS selon Le Panse'" class="sub-menu">
+      <a
+        *ngFor="let subItem of subMenu"
+        [routerLink]="subItem.link"
+        routerLinkActive="active"
+        >{{ subItem.label }}</a
+      >
+    </div>
+    <div *ngIf="item.label === 'S\'inscrire'" class="sub-menu">
+      <a
+        *ngFor="let subItem of subMenu1"
+        [routerLink]="subItem.link"
+        routerLinkActive="active"
+        >{{ subItem.label }}</a
+      >
+    </div>
+  </div>
+</div>

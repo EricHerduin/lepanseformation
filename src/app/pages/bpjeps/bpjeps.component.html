@@ -1,5 +1,62 @@
-<div class="mainpage col-md-12">
-  <h1>BPJEPS AF selon Le Panse</h1>
-  <router-outlet></router-outlet>
-  <button type="button" class="btn btn-primary">Bouton Bootstrap</button>
+<div class="container">
+  <div class="mainpage col-md-12">
+    <h1>BPJEPS AF selon Le Panse</h1>
+
+    <div class="text_container">
+      <h2>Le Diplôme</h2>
+      <p>
+        Le <strong>BPJEPS AF</strong> ou « brevet professionnel de la jeunesse
+        et de l’éducation populaire et du sport spécialité activité de la forme
+        », est un diplôme reconnu par l’État. Il permet à son détenteur de
+        d'exercer, à titre personnel ou pour le compte d'une structure sportive
+        privée ou associative, le
+        <strong>métier de coach sportif</strong> métier de coach sportif.
+      </p>
+      <p>Il se compose de 2 mentions :</p>
+      <ul>
+        <li>
+          <p>
+            La <strong>mention A « cours collectifs »</strong> qui vous permet
+            de dispenser des cours de renforcement musculaire, de stretching
+            ainsi que des cours chorégraphiés.
+          </p>
+        </li>
+        <li>
+          <p>
+            La <strong>mention B « musculation, haltérophilie »</strong> qui
+            vous donne l’opportunité de donner des cours individuels en
+            musculation ou en haltérophilie.
+          </p>
+        </li>
+      </ul>
+      <div class="container_dl row" style="margin-top: 70px">
+        <p class="col-md-4">
+          Télécharger le détail du <strong>BPJEPS AF selon Le Panse</strong>
+        </p>
+        <span class="col-md-3">
+          <img
+            src="/assets/icones/downloading-updates.jpg"
+            (click)="downloadPDF('/assets/download/Le BP JEPS AF.pdf')"
+            alt="Téléchargez le pdf"
+          />
+        </span>
+      </div>
+    </div>
+    <div class="text_container">
+      <h2>L'expertise Le Panse</h2>
+      <img src="/assets/photos/PHOTO-2020-11-13-14-31-09-2.jpg" alt="" />
+      <p>
+        «Le Panse Formation » dispense son enseignement sur 10 mois alternant
+        stage en entreprise et en organisme de formation. <br />L'école vous
+        offre un encadrement de grande qualité, avec des intervenants aux
+        carrières sportives de très haut niveau et des spécialistes en
+        méthodologie du sport, physiologie et anatomie. Rigueur, cohésion,
+        respect, équité, solidarité et performance sont nos valeurs. De plus, sa
+        directrice, Bénédicte Le Panse, docteur en physiologie et auteur de
+        plusieurs livres sur la nutrition, vous délivrera son savoir et les
+        grands principes sur ce sujet.
+        <a routerLink="" style="text-decoration: underline">En savoir plus</a>
+      </p>
+    </div>
+  </div>
 </div>

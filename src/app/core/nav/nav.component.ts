@@ -18,16 +18,16 @@ export class NavComponent {
     { label: 'Contact', link: '/contact' },
   ];
   subMenu = [
-    { label: 'Nos Équipes', link: '/bpjeps/equipes' },
+    { label: 'Nos Équipes', link: '/equipes' },
     {
       label: 'Handicap',
-      link: '/bpjeps/stagiaire_en_situation_d_handicap',
+      link: '/stagiaire_en_situation_d_handicap',
     },
     {
       label: 'Résultats et Débouchés',
-      link: '/bpjeps/resultats_et_debouches',
+      link: '/resultats_et_debouches',
     },
-    { label: 'Nos Locaux', link: '/bpjeps/nos_locaux' },
+    { label: 'Nos Locaux', link: '/nos_locaux' },
   ];
   subMenu1 = [{ label: "tests d'entrée", link: '/inscription/test' }];
 }

@@ -17,16 +17,15 @@ const routes: Routes = [
   {
     path: 'bpjeps',
     component: BpjepsComponent,
-    children: [
-      { path: 'equipes', component: TeamsComponent },
-      {
-        path: 'stagiaire_en_situation_d_handicap',
-        component: HandicapComponent,
-      },
-      { path: 'resultats_et_debouches', component: ResultsComponent },
-      { path: 'nos_locaux', component: LocalComponent },
-    ],
   },
+  { path: 'equipes', component: TeamsComponent },
+  {
+    path: 'stagiaire_en_situation_d_handicap',
+    component: HandicapComponent,
+  },
+  { path: 'resultats_et_debouches', component: ResultsComponent },
+  { path: 'nos_locaux', component: LocalComponent },
+
   { path: 'inscription', component: InscriptionComponent },
   { path: 'certification-nutrition', component: NutritionComponent },
   { path: 'actu', component: ActusComponent },
